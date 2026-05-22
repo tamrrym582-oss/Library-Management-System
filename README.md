@@ -16,7 +16,7 @@ This comprehensive repository integrates robust Object-Oriented Software Design,
 
 ---
 
-## 🗄️ Database Architecture & Engineering (Module 2)
+## 🗄️ Database Architecture & Engineering 
 
 > ⚠️ **Important Note on Data Consistency:**
 > The dataset injected into the MySQL schema consists entirely of **mock/fictional data** tailored specifically for a separate database course module. 
@@ -30,23 +30,9 @@ The conceptual database schema includes 8 entity tables designed to showcase a s
 - **Quality Control:** Dynamic asset evaluation via internal damage/loss `Reports`.
 
 *The full SQL initialization script can be found inside the `/database` folder.*
-
----
-
-## 🌐 Network Infrastructure Design (Module 3)
-
-> 🖥️ **Network Architecture Blueprint:**
-> Alongside the software and database, a complete network topology was designed to simulate how this Library System communicates securely across different branches and servers in a real-world enterprise environment.
-
-The network design models the underlying communication infrastructure required to host and secure the system:
-- **Topology & Segmentation:** LAN/WAN design separating the library's internal enterprise traffic (Librarians/Staff) from public access points (Members/Readers).
-- **Server Infrastructure:** Configuration blueprints for Hosting Servers (Application server, Database server, and core DHCP/DNS services).
-- **Security & Routing:** Implementation of firewalls, Access Control Lists (ACLs), and secure routing protocols to prevent unauthorized external access to the database layer.
-
 ---
 
 ## 🛠️ Built With
 - **Language:** Java Core (SE)
 - **Framework:** Java Swing UI & Java 2D Graphic Engine
 - **Database Engine:** MySQL Relational Dialect
-- **Network Simulation:** Cisco Packet Tracer / Network Architecture Tools

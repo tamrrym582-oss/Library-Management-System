@@ -15,18 +15,17 @@ This project integrates robust Object-Oriented Software Design with a comprehens
 - **Data Collections Simulator:** In-memory tracking of books dynamic availability, active borrowing records, and fine evaluation.
 
 ---
+## 🗄️ Database Design (Course Module 2)
 
-## 🗄️ Database Architecture & Engineering
+> ⚠️ **Important Note on Data Consistency:** > The dataset injected into the MySQL schema consists entirely of **mock/fictional data** tailored specifically for a separate database course module. 
+> This SQL script serves as an independent database architecture blueprint and is **not connected to the active Java GUI runtime layer** (which relies on automated memory collections).
 
-The backend schema represents a fully normalized relational database engine consisting of **8 strongly coupled entity tables** designed to maintain high data integrity:
-
+The conceptual database schema includes 8 entity tables designed to showcase a scalable relational structure:
 - **Membership & Administration:** `Reader` & `Staff` trackers.
 - **Catalog Management:** `Book` inventory linked with `Publisher` details.
 - **Core Operations:** Comprehensive logging for book `Borrow` events.
 - **Financial Auditing:** `Fine` computation records alongside `Payment` receipts processed by authorized staff.
 - **Quality Control:** Dynamic asset evaluation via internal damage/loss `Reports`.
-
-*Note: The standalone DDL/DML script configuration is fully documented under the `/database` directory.*
 
 ---
 
